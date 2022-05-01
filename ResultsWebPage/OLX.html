@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX Filters - Casă și Grădină</title>
+    <link rel="shortcut icon" href="logo.png">
+    <link rel="stylesheet" type="text/css" href="OLX.css">
+</head>
+
+<body>
+    <div id = "loading">Se rulează Crawler-ul.
+        <img src = "loading.gif" alt="Loading GIF">
+        Filtrele vor apărea în curând.
+    </div>
+
+    <div id = "content">
+        <div class = "selectDiv">
+            <label for="filter-select">Filtru:</label>
+            <select name="filter" id="filter-select">
+                <option value="none">- - - Alegeți un filtru: - - -</option>
+                <option value="filter0">Preț</option>
+                <option value="filter1">Stare produse</option>
+                <option value="filter2">Materiale</option>
+                <option value="filter3">Firme</option>
+                <option value="filter4">Modalitate de livrare</option>
+                <option value="filter5">Mobilă (pe camere)</option>
+                <option value="filter6">Piese de mobilier</option>
+                <option value="filter7">Beneficii</option>
+                <option value="filter8">Flori</option>
+                <option value="filter9">Unelte</option>
+            </select>
+        </div>
+
+        <div id = "filterResultBox">
+            <span class = "message">Rezultatul va apărea aici.</span>
+        </div>
+    <button name="button" onclick="getData()">Arată rezultatul</button>
+    </div>
+
+    <script src = "OLX.js"></script>
+</body>
+</html>

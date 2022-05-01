@@ -1,0 +1,5 @@
+Paturi: 43
+Canapele: 53
+Fotolii: 21
+Dulapuri: 25
+Scaune: 52

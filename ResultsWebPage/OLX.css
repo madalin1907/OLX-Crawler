@@ -1,0 +1,137 @@
+:root{
+    --color1: #1f1e1e;
+    --color2: #272727;
+    --color3: #f1c86f;
+}
+
+
+
+body{
+    height: 98vh;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color1);
+    color: var(--color3);
+
+    font-size: 25px;
+}
+
+
+
+select{
+    color: var(--color3);
+    background-color: var(--color2);
+    border: 2px solid var(--color3);
+    font-size: 20px;
+    padding: 3px 7px 3px 7px;
+}
+
+
+
+button{
+    background-color: var(--color2);
+    color: var(--color3);
+
+    border: 3px solid var(--color3);
+    border-radius: 10px;
+    
+    box-shadow: 3px 4px 2px rgb(0, 0, 0);
+    padding: 10px 15px 10px 15px;
+    font-size: 20px;
+}
+
+button:active{
+    transform: translate(3px, 4px);
+    box-shadow: none;
+}
+
+
+
+#loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#content{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.selectDiv{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+#filterResultBox{
+    width: 500px;
+    height: 250px;
+
+    background-color: var(--color2);
+    color: var(--color3);
+    border: 5px solid var(--color3);
+    border-radius: 20px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.message{
+    opacity: 0.3;
+}
+
+
+
+.warning{
+    border: 3px solid red;
+    border-radius: 10px;
+    font-weight: bold;
+    color: red;
+    padding: 15px 45px 15px 45px;
+    background-color: var(--color2);
+    position: absolute;
+    top: -75px;
+    animation: fade 1.2s;
+}
+
+@keyframes fade {
+    10% {top: 60px; }
+    80% {top: 60px; }
+    100% {top: -75px; }
+}
+
+@media (max-width: 550px){
+    body{
+        font-size: 20px;
+    }
+    #filterResultBox{
+        width: 300px;
+        height: 180px;
+        border: 3px solid var(--color3);
+    }
+    select{
+        color: var(--color3);
+        background-color: var(--color2);
+        border: 2px solid var(--color3);
+        font-size: 18px;
+        padding: 3px 7px 3px 7px;
+    }
+    button{
+        font-size: 18px;
+    }
+}
