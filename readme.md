@@ -8,6 +8,7 @@
 
 ## To use the crawler, follow the following steps:
 
-1. Open CMD and use *cd* to reach the **Server** folder path.
-2. Use command "node server.js" to start the server.
-3. Open *OLX.html* file from **ResultsWebPage** folder using Live Server.
+1. Open the project folder with Visual Studio Code.
+2. Open a terminal and use *cd Server* to reach the **Server** folder path.
+4. Use command "node server.js" to start the server.
+5. Open *OLX.html* file from **ResultsWebPage** folder using Live Server.
