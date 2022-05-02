@@ -136,10 +136,10 @@ result2.close()
 
 # |||||||||||||||||||||||||||||||||||||||||||||| FILTRUL 3 - Firme ||||||||||||||||||||||||||||||||||||||||||||||
 
-companies_filter = r"(bosch)|(makita)|(ingco)|(hilti)|(stanley)"
+companies_filter = r"(bosch)|(makita)|(ingco)|(hilti)|(stanley)|(stihl)"
 companies = re.findall(companies_filter, input_text, re.I)
 
-bosch, makita, ingco, hilti, stanley = 0, 0, 0, 0, 0
+bosch, makita, ingco, hilti, stanley, stihl = 0, 0, 0, 0, 0, 0
 
 for company in companies:
     if company[0]:
@@ -152,6 +152,8 @@ for company in companies:
         hilti += 1
     elif company[4]:
         stanley += 1
+    elif company[5]:
+        stanley += 1
 
 result3 = open("./Results/filter3.txt", "w", encoding="utf-8")
 
@@ -160,6 +162,7 @@ result3.write(f"Makita: {makita}\n")
 result3.write(f"Ingco: {ingco}\n")
 result3.write(f"Hilti: {hilti}\n")
 result3.write(f"Stanley: {stanley}\n")
+result3.write(f"Stihl: {stihl}\n")
 
 result3.close()     
 
@@ -229,7 +232,7 @@ result5.close()
 
 
 
-# |||||||||||||||||||||||||||||||||||||||||||||| FILTRUL 6 - Mobilă ||||||||||||||||||||||||||||||||||||||||||||||
+# |||||||||||||||||||||||||||||||||||||||||||||| FILTRUL 6 - Piese de mobilier ||||||||||||||||||||||||||||||||||||||||||||||
 
 furniture2_filter = r"(\bpat(?:uri)?\b)|(canape(?:(?:a)|(?:le)))|(fotoli[iu])|(dulap(?:uri)?\b)|(sc[aă]un(?:el?)?)"
 furniture2Items = re.findall(furniture2_filter, input_text, re.I)

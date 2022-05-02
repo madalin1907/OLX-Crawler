@@ -1,8 +1,8 @@
-Metal: 195
-Fier: 38
-Oțel: 66
-Aluminiu: 27
-Inox: 72
-Cupru: 24
-Lemn: 243
+Metal: 168
+Fier: 36
+Oțel: 93
+Aluminiu: 56
+Inox: 57
+Cupru: 5
+Lemn: 179
 Piele: 24

@@ -1,5 +1,5 @@
 Foarte bună: 46
-Bună: 45
-Perfectă: 20
-Nouă: 1
-Excepțională: 0
+Bună: 40
+Perfectă: 28
+Nouă: 0
+Excepțională: 1

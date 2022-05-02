@@ -1,5 +1,5 @@
-Paturi: 43
-Canapele: 53
-Fotolii: 21
-Dulapuri: 25
-Scaune: 52
+Paturi: 39
+Canapele: 55
+Fotolii: 19
+Dulapuri: 40
+Scaune: 33
