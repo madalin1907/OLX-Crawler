@@ -1,6 +1,6 @@
 fetch(`http://localhost:5000/filters`)
 .then(data =>{
-    document.getElementById("loading").style.display = "none";
+    document.getElementById("loading").remove();
     document.getElementById("content").style.display = "flex";
 })
 

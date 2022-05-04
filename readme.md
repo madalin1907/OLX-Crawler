@@ -12,3 +12,5 @@
 2. Open a terminal and use *cd Server* to reach the **Server** folder path.
 4. Use command "node server.js" to start the server.
 5. Open *OLX.html* file from **ResultsWebPage** folder using Live Server.
+
+The Crawler will automatically run in the opened webpage. If you want to use the Crawler multiple times, just refresh the webpage (**Don't refresh it while the Crawler is running to avoid possible errors!**).
