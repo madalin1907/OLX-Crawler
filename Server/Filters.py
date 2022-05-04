@@ -82,7 +82,7 @@ result1.write(f"Foarte bună: {fbuna}\n")
 result1.write(f"Bună: {buna}\n")
 result1.write(f"Perfectă: {perfecta}\n")
 result1.write(f"Nouă: {noua}\n")
-result1.write(f"Excepțională: {exceptionala}\n")
+result1.write(f"Excepțională: {exceptionala}")
 
 result1.close() 
 
@@ -126,7 +126,7 @@ result2.write(f"Aluminiu: {aluminiu}\n")
 result2.write(f"Inox: {inox}\n")
 result2.write(f"Cupru: {cupru}\n")
 result2.write(f"Lemn: {lemn}\n")
-result2.write(f"Piele: {piele}\n")
+result2.write(f"Piele: {piele}")
 
 result2.close() 
 
@@ -162,7 +162,7 @@ result3.write(f"Makita: {makita}\n")
 result3.write(f"Ingco: {ingco}\n")
 result3.write(f"Hilti: {hilti}\n")
 result3.write(f"Stanley: {stanley}\n")
-result3.write(f"Stihl: {stihl}\n")
+result3.write(f"Stihl: {stihl}")
 
 result3.close()     
 
@@ -189,7 +189,7 @@ result4 = open("./Results/filter4.txt", "w", encoding="utf-8")
 
 result4.write(f"Curierat: {curierat}\n")
 result4.write(f"Poștă: {posta}\n")
-result4.write(f"Ridicare personală: {ridicare}\n")
+result4.write(f"Ridicare personală: {ridicare}")
 
 result4.close() 
 
@@ -225,7 +225,7 @@ result5.write(f"Dormitor: {dormitor}\n")
 result5.write(f"Bucătărie: {bucatarie}\n")
 result5.write(f"Baie: {baie}\n")
 result5.write(f"Hol: {hol}\n")
-result5.write(f"Terasă: {terasa}\n")
+result5.write(f"Terasă: {terasa}")
 
 result5.close()
 
@@ -257,7 +257,7 @@ result6.write(f"Paturi: {pat}\n")
 result6.write(f"Canapele: {canapea}\n")
 result6.write(f"Fotolii: {fotoliu}\n")
 result6.write(f"Dulapuri: {dulap}\n")
-result6.write(f"Scaune: {scaun}\n")
+result6.write(f"Scaune: {scaun}")
 
 result6.close()
 
@@ -284,7 +284,7 @@ result7 = open("./Results/filter7.txt", "w", encoding="utf-8")
 
 result7.write(f"Cu emitere de factura: {factura}\n")
 result7.write(f"Cu garanție: {garantie}\n")
-result7.write(f"Cu livrare asigurată: {livrare}\n")
+result7.write(f"Cu livrare asigurată: {livrare}")
 
 result7.close()
 
@@ -317,7 +317,7 @@ result8.write(f"Trandafiri: {trandafiri}\n")
 result8.write(f"Lalele: {lalele}\n")
 result8.write(f"Orhidee: {orhidee}\n")
 result8.write(f"Bujori: {lalele}\n")
-result8.write(f"Mușcate: {muscate}\n")
+result8.write(f"Mușcate: {muscate}")
 
 result8.close()
 
@@ -353,6 +353,6 @@ result9.write(f"Fierăstraie: {fierastrau}\n")
 result9.write(f"Bormașini: {bormasina}\n")
 result9.write(f"Burghie: {burghiu}\n")
 result9.write(f"Ciocane: {ciocan}\n")
-result9.write(f"Flexuri: {flex}\n")
+result9.write(f"Flexuri: {flex}")
 
 result9.close()

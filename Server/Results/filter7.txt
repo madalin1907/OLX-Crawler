@@ -1,3 +1,3 @@
-Cu emitere de factura: 30
+Cu emitere de factura: 24
 Cu garanție: 61
-Cu livrare asigurată: 86
+Cu livrare asigurată: 85

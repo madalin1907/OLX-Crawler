@@ -1,6 +1,6 @@
-Sufragerie: 14
-Dormitor: 7
-Bucătărie: 14
-Baie: 6
+Sufragerie: 16
+Dormitor: 0
+Bucătărie: 8
+Baie: 4
 Hol: 0
-Terasă: 0
+Terasă: 1
