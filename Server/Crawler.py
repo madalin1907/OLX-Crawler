@@ -35,7 +35,7 @@ def PageParser(pageNr):
 
 
 elementCounter = 0
-maxPages = 25 # -> numarul maxim de pagini pe care va intra Crawler-ul (maximul acceptat pe OLX 25)
+maxPages = 25 # -> numarul maxim de pagini pe care va intra Crawler-ul (maximul acceptat pe OLX este 25)
 
 
 pages = [i for i in range(1, maxPages+1)]

@@ -1,6 +1,6 @@
-Drujbe: 13
+Drujbe: 7
 Fierăstraie: 8
-Bormașini: 10
-Burghie: 4
-Ciocane: 10
-Flexuri: 4
+Bormașini: 6
+Burghie: 7
+Ciocane: 12
+Flexuri: 7

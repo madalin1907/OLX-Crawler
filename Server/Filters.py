@@ -294,7 +294,7 @@ result7.close()
 
 # |||||||||||||||||||||||||||||||||||||||||||||| FILTRUL 8 - Flori ||||||||||||||||||||||||||||||||||||||||||||||
 
-flowers_filter = r"(trandafiri?)|(lalea?(?:le)?)|(orhide[ei])|(bujori?)|(mu[sș]cate)"
+flowers_filter = r"(trandafiri?)|(lalea?(?:le)?)|(orhide[ei])|(bujori?)|(mu[sș]cat[aăe])"
 flowers = re.findall(flowers_filter, input_text, re.I)
 
 trandafiri, lalele, orhidee, bujori, muscate = 0, 0, 0, 0, 0
@@ -327,7 +327,7 @@ result8.close()
 
 # |||||||||||||||||||||||||||||||||||||||||||||| FILTRUL 9 - Unelte ||||||||||||||||||||||||||||||||||||||||||||||
 
-tools_filter = r"(drujb[aă])|(\bfier[aă]str[aă]u)|(borma[sș]in[aă])|(burghiu)|(ciocan\b)|(\bflex\b)"
+tools_filter = r"(drujb[aă])|(fier[aă]str[aă]u)|(borma[sș]in[aă])|(burghiu)|(ciocan\b)|(\bflex\b)"
 tools = re.findall(tools_filter, input_text, re.I)
 
 drujba, fierastrau, bormasina, burghiu, ciocan, flex = 0, 0, 0, 0, 0, 0

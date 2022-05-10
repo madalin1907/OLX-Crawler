@@ -1,6 +1,6 @@
-Bosch: 28
-Makita: 15
+Bosch: 35
+Makita: 8
 Ingco: 0
-Hilti: 30
-Stanley: 3
+Hilti: 4
+Stanley: 13
 Stihl: 0

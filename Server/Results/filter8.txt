@@ -1,5 +1,5 @@
-Trandafiri: 2
-Lalele: 1
-Orhidee: 2
-Bujori: 1
-Mușcate: 4
+Trandafiri: 27
+Lalele: 0
+Orhidee: 0
+Bujori: 0
+Mușcate: 0
