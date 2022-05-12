@@ -38,7 +38,7 @@ elementCounter = 0
 maxPages = 25 # -> numarul maxim de pagini pe care va intra Crawler-ul (maximul acceptat pe OLX este 25)
 
 
-pages = [i for i in range(1, maxPages+1)]
+pages = [i for i in range(1, maxPages + 1)]
 allItems = concurrent.futures.ThreadPoolExecutor().map(PageParser, pages)
 # -> rulare in paralel (multithread) pentru fiecare pagina in parte
 

@@ -1,7 +1,7 @@
-Între 0 și 10 RON: 92
-Între 10 și 50 RON: 113
-Între 50 și 250 RON: 153
-Între 250 și 1000 RON: 144
-Între 1000 și 5000 RON: 131
-Între 5000 și 15000 RON: 54
-Peste 15000 RON: 3
+Între 0 și 10 RON: 72
+Între 10 și 50 RON: 101
+Între 50 și 250 RON: 183
+Între 250 și 1000 RON: 159
+Între 1000 și 5000 RON: 164
+Între 5000 și 15000 RON: 63
+Peste 15000 RON: 6

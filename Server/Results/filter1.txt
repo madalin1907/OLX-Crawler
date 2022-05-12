@@ -1,5 +1,5 @@
-Foarte bună: 67
-Bună: 59
-Perfectă: 21
-Nouă: 2
-Excepțională: 2
+Foarte bună: 50
+Bună: 300
+Perfectă: 18
+Nouă: 0
+Excepțională: 1
