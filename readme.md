@@ -2,7 +2,7 @@
 
 ## Before using the crawler, you will need to install these:
 1. Visual Studio Code + Live Server extension.
-2. Python 3.10 + 'requests', 'bs4' (or 'BeautifulSoup4') and 'concurrent.futures' libraries (Use command *pip install \<extension name\>* in terminal to install a library).
+2. Python 3.10 + 'requests', 'bs4' (or 'BeautifulSoup4') and 'concurrent.futures' libraries (Use command *pip install \<library name\>* in terminal to install a library).
 3. Node.js + 'express' module (Use command *npm install \<module name\>* to install a module).
 
 
